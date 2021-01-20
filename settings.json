@@ -1,0 +1,57 @@
+{
+  "editor.fontSize": 17,
+  "editor.renderWhitespace": "all", // We want to see spaces and tabs
+  "editor.wordWrap": "on",
+
+  // Disable the confirmation box when deleting a file
+  "explorer.confirmDelete": false,
+
+  // Ignore the annoying popups that happen when you open a new repository
+  "extensions.ignoreRecommendations": false,
+
+  // Linux line endings are commonly used as a programming standard
+  "files.eol": "\n",
+
+  // Disable the "Gutter" decorations along the left side next to the line numbers
+  // that show the Git history of the curernt code block
+  "scm.diffDecorations": "none",
+
+  // Disable the annoying release notes popup everytime that VSCode updates itself
+  "update.showReleaseNotes": false,
+
+  // Show the full path of the file in the window title
+  "window.title": "${activeEditorLong}${separator}${rootName}",
+
+  // 0 is the default, which will change if you accidently use Ctrl + - or Ctrl + =
+  "window.zoomLevel": 0,
+
+  // Don't open files in "preview" mode (e.g. italicized in the tab title)
+  "workbench.editor.enablePreview": false,
+
+  // Don't show the welcome screen
+  "workbench.startupEditor": "newUntitledFile",
+
+  // ---------
+  // Languages
+  // ---------
+
+  // Go
+  "go.formatTool": "goimports",
+
+  // Lua
+  // We need to to tell the vscode-lua extension where the luacheck binary is
+  "lua.luacheckPath": "D:\\Applications\\Misc\\luacheck\\luacheck.exe",
+
+  // Python
+  "python.showStartPage": false,
+
+  // TypeScript/JavaScript
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+}
