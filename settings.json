@@ -6,9 +6,6 @@
   // Disable the confirmation box when deleting a file
   "explorer.confirmDelete": false,
 
-  // Ignore the annoying popups that happen when you open a new repository
-  "extensions.ignoreRecommendations": false,
-
   // Linux line endings are commonly used as a programming standard
   "files.eol": "\n",
 
