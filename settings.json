@@ -30,28 +30,4 @@
 
   // Don't show the welcome screen
   "workbench.startupEditor": "newUntitledFile",
-
-  // ---------
-  // Languages
-  // ---------
-
-  // Go
-  "go.formatTool": "goimports",
-
-  // Lua
-  // We need to to tell the vscode-lua extension where the luacheck binary is
-  "lua.luacheckPath": "D:\\Applications\\Misc\\luacheck\\luacheck.exe",
-
-  // Python
-  "python.showStartPage": false,
-
-  // TypeScript/JavaScript
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.editorAssociations": [
-    {
-      "viewType": "jupyter.notebook.ipynb",
-      "filenamePattern": "*.ipynb"
-    }
-  ],
 }
