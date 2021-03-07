@@ -1,4 +1,8 @@
 {
+  // ----------------
+  // Vanilla settings
+  // ----------------
+
   "editor.fontSize": 17,
   "editor.renderWhitespace": "all", // We want to see spaces and tabs
   "editor.wordWrap": "on",
@@ -27,4 +31,17 @@
 
   // Don't show the welcome screen
   "workbench.startupEditor": "newUntitledFile",
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+
+  // ------------------
+  // Extension settings
+  // ------------------
+
+  // By default, the Python extension shows an annoying welcome screen
+  "python.showStartPage": false,
 }
